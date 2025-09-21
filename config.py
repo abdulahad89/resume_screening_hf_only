@@ -54,10 +54,10 @@ HUGGINGFACE_MODELS = {
 # Fallback: Mistral 7B v0.2 (proven stable)
 # Secondary: FLAN-T5 XL (reliable for structured tasks)
 
-DATA_EXTRACTION_MODEL = HUGGINGFACE_MODELS["mistral_7b_v03"]     # Latest Mistral
-RELEVANCE_SCORING_MODEL = HUGGINGFACE_MODELS["mistral_7b_v03"]   # Latest Mistral  
-CHATBOT_MODEL = HUGGINGFACE_MODELS["mistral_7b_v03"]            # Latest Mistral
-MAIN_MODEL = HUGGINGFACE_MODELS["mistral_7b_v03"]               # Latest Mistral
+DATA_EXTRACTION_MODEL = HUGGINGFACE_MODELS["flan_t5_xl"]     # Latest Mistral
+RELEVANCE_SCORING_MODEL = HUGGINGFACE_MODELS["flan_t5_xl"]   # Latest Mistral  
+CHATBOT_MODEL = HUGGINGFACE_MODELS["flan_t5_xl"]            # Latest Mistral
+MAIN_MODEL = HUGGINGFACE_MODELS["flan_t5_xl"]               # Latest Mistral
 
 # FALLBACK CHAIN - If primary models fail
 FALLBACK_MODELS = [
