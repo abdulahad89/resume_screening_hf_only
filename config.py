@@ -45,13 +45,16 @@ HUGGINGFACE_MODELS = {
     # Backup models (always available)
     "gpt2_medium": "gpt2-medium",  # Reliable fallback
     "distilbert": "distilbert-base-uncased",  # Lightweight
+
+    "zephyr": "HuggingFaceH4/zephyr-7b-beta",
+    "phi3": "microsoft/Phi-3-mini-4k-instruct"
 }
 
 # Model selection - Best free models for different tasks
-DATA_EXTRACTION_MODEL = HUGGINGFACE_MODELS["mistral_7b"]     # Mistral for structured data
-RELEVANCE_SCORING_MODEL = HUGGINGFACE_MODELS["mistral_7b"]   # Mistral for analysis
-CHATBOT_MODEL = HUGGINGFACE_MODELS["mistral_7b"]            # Mistral for conversations
-MAIN_MODEL = HUGGINGFACE_MODELS["mistral_7b"]               # Primary model
+DATA_EXTRACTION_MODEL = HUGGINGFACE_MODELS["zephyr"]     # Mistral for structured data
+RELEVANCE_SCORING_MODEL = HUGGINGFACE_MODELS["zephyr"]   # Mistral for analysis
+CHATBOT_MODEL = HUGGINGFACE_MODELS["zephyr"]            # Mistral for conversations
+MAIN_MODEL = HUGGINGFACE_MODELS["zephyr"]               # Primary model
 
 # Fallback models (if primary models fail)
 FALLBACK_MODELS = [
