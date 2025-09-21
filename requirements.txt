@@ -1,0 +1,30 @@
+# Resume Screening System - HuggingFace Only (FREE!)
+# Ultra-minimal requirements for HuggingFace-only solution
+
+# Core Streamlit
+streamlit>=1.28.0
+pandas>=1.5.0
+numpy>=1.24.0
+
+# Document Processing
+PyMuPDF>=1.23.0
+python-docx>=0.8.11
+
+# HTTP Requests for HuggingFace Inference API - ONLY DEPENDENCY WE NEED
+requests>=2.31.0
+
+# Utilities
+python-dateutil>=2.8.0
+
+# NOTE: This is the SIMPLEST possible setup!
+# Removed compared to Google AI version:
+# - google-generativeai (don't need Google AI)
+# - All other AI/ML packages (HuggingFace API handles everything)
+
+# Total: Only 6 packages for a complete AI resume screening system!
+# All processing happens via FREE HuggingFace Inference API
+
+# Cost: $0 (with rate limits)
+# Upgrade: HuggingFace Pro $9/month for unlimited access
+
+# This is the most cost-effective AI resume screening solution possible!
