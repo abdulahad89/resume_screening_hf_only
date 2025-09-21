@@ -51,10 +51,10 @@ HUGGINGFACE_MODELS = {
 }
 
 # Model selection - Best free models for different tasks
-DATA_EXTRACTION_MODEL = HUGGINGFACE_MODELS["zephyr"]     # Mistral for structured data
-RELEVANCE_SCORING_MODEL = HUGGINGFACE_MODELS["zephyr"]   # Mistral for analysis
-CHATBOT_MODEL = HUGGINGFACE_MODELS["zephyr"]            # Mistral for conversations
-MAIN_MODEL = HUGGINGFACE_MODELS["zephyr"]               # Primary model
+DATA_EXTRACTION_MODEL = HUGGINGFACE_MODELS["phi3"]     # Mistral for structured data
+RELEVANCE_SCORING_MODEL = HUGGINGFACE_MODELS["phi3"]   # Mistral for analysis
+CHATBOT_MODEL = HUGGINGFACE_MODELS["phi3"]            # Mistral for conversations
+MAIN_MODEL = HUGGINGFACE_MODELS["phi3"]               # Primary model
 
 # Fallback models (if primary models fail)
 FALLBACK_MODELS = [
